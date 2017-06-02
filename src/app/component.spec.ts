@@ -1,6 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { NgRedux, DevToolsExtension } from '@angular-redux/store';
 import { AppComponent } from './component';
 
 describe('AppComponent', () => {

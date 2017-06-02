@@ -7,11 +7,9 @@ import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/startWith';
 
 import { IAppState } from '../../store/model';
-import { AnimalType, ANIMAL_TYPES } from '../model';
+import { AnimalType } from '../model';
 import { AnimalAPIAction, AnimalAPIActions } from './actions';
 import { AnimalAPIService } from './service';
-
-type Predicate = (any) => boolean;
 
 const animalsNotAlreadyFetched = (
   animalType: AnimalType,

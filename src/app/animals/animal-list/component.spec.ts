@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
 import { By } from '@angular/platform-browser';
 import { AnimalListComponent } from './component';
 import { CoreModule } from '../../core/module';
@@ -8,7 +7,6 @@ import { AnimalType } from '../model';
 
 @Component({ selector: 'zoo-animal', template: '' })
 class MockAnimalComponent {
-  @Input() key: string
   @Input() animalType: AnimalType
 }
 
